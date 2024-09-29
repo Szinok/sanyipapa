@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #298a28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sheep-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.sheep {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;
+    image-rendering: pixelated; /* A pixeles megjelenés fenntartása */
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0; /* Nagyobb távolság a birkasorok között */
+}
+
+.hay {
+    width: 100px;
+    height: auto;
+    margin-right: 100px; /* Nagyobb távolság az ollótól */
+    image-rendering: pixelated; /* A pixeles megjelenés fenntartása */
+}
+
+.scissors {
+    width: 120px; /* Nagyobb olló */
+    height: auto;
+    image-rendering: pixelated; /* A pixeles megjelenés fenntartása */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Első sor, az első fekete birka és további 6 fehér birka -->
+        <div class="sheep-row">
+            <img src="images/fekete_birka_nyirt.png" class="sheep" data-sheared="true" alt="fekete birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+        </div>
+
+        <!-- Széna és olló -->
+        <div class="center-items">
+            <img id="hay" src="images/szena.png" class="hay" alt="széna">
+            <img id="scissors" src="images/ollo.png" class="scissors" alt="olló">
+        </div>
+
+        <!-- Második sor 7 fehér birkával -->
+        <div class="sheep-row">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+            <img src="images/birka_nyirt.png" class="sheep" data-sheared="true" alt="fehér birka" onclick="handleSheepClick(this)">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
